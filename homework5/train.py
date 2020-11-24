@@ -63,7 +63,7 @@ if __name__ == "__main__":
     # show images
     # imshow(torchvision.utils.make_grid(images))
     # print labels
-    print(' '.join('%5s' % classes[labels[j]] for j in range(4)))
+    # print(' '.join('%5s' % classes[labels[j]] for j in range(4)))
 
     # 实例化神经网络
     net = Net()
